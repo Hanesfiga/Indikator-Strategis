@@ -24,7 +24,7 @@ class _IndikatorDetailScreenState
     extends State<IndikatorDetailScreen>
     with SingleTickerProviderStateMixin {
 
-  static const String baseUrl = "http://192.168.3.220:8000";
+  static const String baseUrl = "http://127.0.0.1:8000";
 
   late Future<IndikatorDetail> indikatorFuture;
   TabController? tabController;

@@ -5,7 +5,7 @@ import 'package:siksolok/services/about_service.dart';
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
-  static const String baseUrl = "http://192.168.3.220:8000";
+  static const String baseUrl = "http://127.0.0.1:8000";
 
   @override
   Widget build(BuildContext context) {
