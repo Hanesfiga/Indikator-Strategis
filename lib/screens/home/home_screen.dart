@@ -313,9 +313,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
           DraggableScrollableSheet(
-            initialChildSize: 0.65,
-            minChildSize: 0.65,
-            maxChildSize: 0.78,
+            initialChildSize: 0.52,
+            minChildSize: 0.52,
+            maxChildSize: 0.80,
             builder: (context, scrollController) {
               return Container(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -577,58 +577,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
                           SizedBox(height: 10),
 
-                          // Angka Strategis Utama
-                          // Center(
-                          //   child: Container(
-                          //     margin: const EdgeInsets.symmetric(
-                          //       horizontal: 16,
-                          //     ),
-                          //     padding: const EdgeInsets.all(12),
-                          //     decoration: BoxDecoration(
-                          //       color: const Color(0xFF2D95C9),
-                          //       borderRadius: BorderRadius.circular(12),
-                          //     ),
-                          //     child: Column(
-                          //       children: [
-                          //         Text(
-                          //           'Angka Strategis Utama $selectedYear',
-                          //           style: const TextStyle(
-                          //             fontFamily: 'Poppins',
-                          //             fontSize: 14,
-                          //             fontWeight: FontWeight.w600,
-                          //             color: Colors.white,
-                          //           ),
-                          //         ),
-                          //         const SizedBox(height: 16),
-                          //         GridView.count(
-                          //           crossAxisCount: 2,
-                          //           mainAxisSpacing: 10,
-                          //           crossAxisSpacing: 10,
-                          //           shrinkWrap: true,
-                          //           physics:
-                          //               const NeverScrollableScrollPhysics(),
-                          //           childAspectRatio: 1.5,
-                          //           children: indikatorDetails.take(6).map((d) {
-                          //             final data =
-                          //                 d.kategoris.isNotEmpty &&
-                          //                     d
-                          //                         .kategoris[0]
-                          //                         .dataIndikators
-                          //                         .isNotEmpty
-                          //                 ? d.kategoris[0].dataIndikators[0]
-                          //                 : null;
-                          //             return buildStatCardSimple(
-                          //               title: d.namaIndikator,
-                          //               icon: Icons.bar_chart_rounded,
-                          //               value: data?.nilai.toString() ?? '-',
-                          //               unit: data?.satuan ?? '',
-                          //             );
-                          //           }).toList(),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ),
-                          // ),
                           const SizedBox(height: 100),
 
                           Center(
