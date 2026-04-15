@@ -27067,7 +27067,7 @@ ai7:function ai7(){},
 a_e(){var s=0,r=A.N(t.nK),q,p,o,n
 var $async$a_e=A.O(function(a,b){if(a===1)return A.K(b,r)
 for(;;)switch(s){case 0:s=3
-return A.R(A.avG(A.eU("http://192.168.3.220:8000/api/abouts",0,null)),$async$a_e)
+return A.R(A.avG(A.eU("http://127.0.0.1:8000/api/abouts",0,null)),$async$a_e)
 case 3:n=b
 if(n.b===200){p=B.c1.dW(A.Ie(A.I7(n.e)).dW(n.w))
 o=t.j
@@ -27087,7 +27087,7 @@ a_g:function a_g(){},
 K8(a){var s=0,r=A.N(t.Oo),q,p
 var $async$K8=A.O(function(b,c){if(b===1)return A.K(c,r)
 for(;;)switch(s){case 0:s=3
-return A.R(A.avG(A.eU("http://192.168.3.220:8000/api/dashboard?tahun="+a,0,null)),$async$K8)
+return A.R(A.avG(A.eU("http://127.0.0.1:8000/api/dashboard?tahun="+a,0,null)),$async$K8)
 case 3:p=c
 if(p.b!==200)throw A.i(A.df("Gagal memuat data dashboard"))
 q=A.hv(J.aA2(J.fI(B.c1.zB(A.Ie(A.I7(p.e)).dW(p.w),null),"data"),new A.a2_()),!0,t.BS)
@@ -27098,7 +27098,7 @@ return A.M($async$K8,r)},
 a2_:function a2_(){},
 zG(){var s=0,r=A.N(t.Gs),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$zG=A.O(function(a,b){if(a===1){o.push(b)
-s=p}for(;;)switch(s){case 0:h=A.eU("http://192.168.3.220:8000/api/indikators",0,null)
+s=p}for(;;)switch(s){case 0:h=A.eU("http://127.0.0.1:8000/api/indikators",0,null)
 A.hO().$1("\u27a1\ufe0f [INDIKATOR LIST] REQUEST: "+A.j(h))
 p=4
 s=7
@@ -27133,7 +27133,7 @@ case 2:return A.K(o.at(-1),r)}})
 return A.M($async$zG,r)},
 LM(a,b){var s=0,r=A.N(t.OJ),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$LM=A.O(function(c,d){if(c===1){o.push(d)
-s=p}for(;;)switch(s){case 0:i=A.eU("http://192.168.3.220:8000/api/indikators/"+a+"?tahun="+b,0,null)
+s=p}for(;;)switch(s){case 0:i=A.eU("http://127.0.0.1:8000/api/indikators/"+a+"?tahun="+b,0,null)
 A.hO().$1("\u27a1\ufe0f [INDIKATOR DETAIL] REQUEST: "+A.j(i))
 p=4
 s=7
@@ -88525,7 +88525,7 @@ return A.lx(new A.B3(A.aAa(!1,B.A,0,A.cn(s,B.NX,B.p,s,s,B.Bi,s,s,s,s,s,s,s)),B.z
 a5M(a,b){var s,r,q,p,o=null,n={},m=n.a=b.d
 if(m!=null&&m.length!==0){m=B.c.lP(m)
 n.a=m
-s=n.a="http://192.168.3.220:8000/api/image/about/"+B.b.gak(m.split("/"))}else s=m
+s=n.a="http://127.0.0.1:8000/api/image/about/"+B.b.gak(m.split("/"))}else s=m
 r=A.cB(b.b,o,o,o,o,B.T7,o,o)
 q=t.p
 p=A.b([],q)
@@ -88827,7 +88827,7 @@ if(s!=null)s.l()
 this.a4c()},
 akR(a){var s
 if(a.length===0)return""
-s="http://192.168.3.220:8000/api/image/kategori/"+B.b.gak(a.split("/"))
+s="http://127.0.0.1:8000/api/image/kategori/"+B.b.gak(a.split("/"))
 A.hO().$1("FINAL IMAGE URL: "+s)
 return s},
 K(a){var s=this.d
